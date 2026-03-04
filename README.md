@@ -31,3 +31,7 @@ findertags list ~/Desktop/file.txt ~/Desktop/other.txt
 # JSON output
 findertags read --format json ~/Desktop/file.txt
 ```
+
+---
+
+*More CLI tools: [`brew tap aayush9029/tap`](https://github.com/Aayush9029/homebrew-tap)*
