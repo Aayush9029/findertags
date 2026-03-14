@@ -1,3 +1,5 @@
+<img src="assets/icon.png" width="128" alt="findertags">
+
 # findertags
 
 Read and modify Finder tags from the command line.
