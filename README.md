@@ -4,6 +4,8 @@
 
 Read and modify Finder tags from the command line.
 
+<p align="center"><img src="assets/demo.gif" alt="findertags demo" width="800"></p>
+
 ## Install
 
 ```bash
