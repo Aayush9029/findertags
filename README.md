@@ -1,15 +1,29 @@
-<img src="assets/icon.png" width="128" alt="findertags">
+<p align="center">
+  <img src="assets/icon.png" width="128" alt="findertags">
+  <h1 align="center">findertags</h1>
+  <p align="center">Read and modify Finder tags from the command line</p>
+</p>
 
-# findertags
+<p align="center">
+  <a href="https://github.com/Aayush9029/findertags/releases/latest"><img src="https://img.shields.io/github/v/release/Aayush9029/findertags" alt="Release"></a>
+  <a href="https://github.com/Aayush9029/findertags/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Aayush9029/findertags" alt="License"></a>
+</p>
 
-Read and modify Finder tags from the command line.
-
-<p align="center"><img src="assets/demo.gif" alt="findertags demo" width="800"></p>
+<p align="center">
+  <img src="assets/demo.gif" alt="findertags demo" width="800">
+</p>
 
 ## Install
 
 ```bash
 brew install aayush9029/tap/findertags
+```
+
+Or tap first:
+
+```bash
+brew tap aayush9029/tap
+brew install findertags
 ```
 
 ## Usage
@@ -25,6 +39,6 @@ findertags list ~/Documents                                 # list tag frequenci
 findertags read --format json ~/Desktop/file.txt            # JSON output
 ```
 
----
+## License
 
-*More CLI tools: [`brew tap aayush9029/tap`](https://github.com/Aayush9029/homebrew-tap)*
+MIT
